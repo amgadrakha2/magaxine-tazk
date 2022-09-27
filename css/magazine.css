@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+.right{
+    position: absolute;
+    left: 70%;
+}
+.changesize{
+    color: #2163e8 !important;
+}
+.btnnav1 {
+    border: 1px solid #2163e8 !important;
+    border-radius: 2px !important;
+}
+.changesize:hover{
+ background-color: #2163e8 !important;
+ color:white !important;
+}
+.social:hover{
+    color: #2163e8 !important;
+}
+.leftnav1:hover{
+ color: #2163e8 !important;
+}
+.nav2{
+    border-top: solid 1px gray;
+    position: relative;
+}
+.divnav{
+    display: flex;
+    position: absolute;
+    right: 115px;
+}
+.divnav a{
+    position: absolute;
+    left: 125%;
+}
+.displayy{
+    display: none;
+}
+.search{
+    padding: 10px;
+    background-color: white;
+    float: right;
+    margin: -25px 100px 0px 0px;
+    background-size: auto;
+    width: 24% !important;
+}
+.search .text{
+    border: 1px solid #0cbc87;
+    border-radius: 0 !important;
+}
+.search .text:focus{
+    box-shadow: none;
+    border: 1px solid #0cbc87;
+}
+.search button{
+    border: 1px solid #0cbc87;
+    border-radius: 3px !important;
+    background-color: #0cbc87!important;
+    color: white;
+    font-weight: bold;
+}
+.sub{
+    position: absolute;
+    left: 75%;
+    width: 120px;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+}
+.glass{
+    position: absolute;
+    left: 86%;
+}
+.menuicon{
+    float: right;
+    position: relative;
+    bottom: 78px;
+    right: 105px;
+}
+.close{
+    position: absolute;
+    left: 91%;
+}
+
+img{
+    height: 30px;
+}
+.menu-container {
+    width: 80% !important;
+    background: none !important;
+    position: absolute;
+    left: 25%;
+}
+.menu > ul > li > ul.normal-sub {
+    width: 236px;
+    left: auto;
+    padding: 10px 20px;
+}
+.menu > ul > li:hover{
+    background: none !important;
+}
+.menu > ul > li a {
+    background-color: #ffffff;
+    padding: 0.5em 1em !important;
+}
+.menu > ul > li a:hover{
+    background: none !important;
+    color: #2163e8 !important;
+}
+.menu ul li a .circle{
+    font-size: 8px;
+}
+.down{
+    font-size: 10px;
+}
+.hmenu{
+    color: black !important;
+}
+.hmenu:hover{
+    color:#2163e8 !important;
+}
+.navline{
+    border-top: solid 2px #e9f0fd;
+}
+.links{
+    border: solid 0px !important;
+}
+.btn-outline-primary {
+    color: #2163e8 !important;
+    background-color: rgba(33, 99, 232, 0.1) !important;
+}
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: #2163e8 !important;
+}
+.btn-outline-warning {
+    color: #f7c32e !important;
+    background-color: rgba(247, 195, 46, 0.1) !important;
+}
+.btn-outline-warning:hover {
+    color: black !important;
+    background-color: #ffc107 !important;
+}
+.btn-outline-light{
+    color: #0cbc87 !important;
+    background-color: rgba(12, 188, 135, 0.1) !important;
+}
+.btn-outline-light:hover{
+    color: white !important;
+    background-color: #198754 !important;
+}
+.btn-outline-danger{
+    color: #d6293e !important;
+    background-color: rgba(214, 41, 62, 0.1) !important;
+}
+.btn-outline-danger:hover{
+    color: white !important;
+    background-color: #dc3545 !important;
+}
+.line{
+}
+.line h6{
+    position: relative;
+}
+.line h6 a{
+    text-decoration: none;
+    color: black;
+}
+.line h6::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.line h6:hover::after{
+    width: 100%;
+}
+.line ul li{
+    display: inline-block;
+    position: relative;
+}
+.line ul li a{
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+}
+.line ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.line ul li:hover::after{
+    width: 100%;
+}
+a:hover .menue{
+display: block;
+}
+.menuparent{
+    display: none;
+    z-index: 9999999999999999999;
+    background-color: white;
+    position: fixed;
+    bottom: 3px;
+    left: 0;
+    right: 0%;
+}
+.displaybigmenue:hover .menuparent{
+    display: block !important;
+}
+.pt-5 {
+    padding-top: 5rem !important;
+}

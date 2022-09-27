@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/magazine.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/ionicons.min.css">
+     <link rel="stylesheet" href="css/alert.css">
+     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+     <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boot-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <!-- JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+     <script>
+         window.Modernizr || document.write('<script src="js/vendor/modernizr-2.8.3.min.js"><\/script>')
+     </script>
+  </head>
+  <body>
+    <!--start header-->
+    
+    <div class="alert alert-warning alert-dismissible fade show text-center  p-2" role="alert">
+      <strong >Unlimited download! Starting from just $15/m  <button type="button" class="btn btn-dark ">Grab now!</button></strong> 
+      <button type="button" class="btn-close btn-close-white  text-end " data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <!--start first nav-->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active leftnav1" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 leftnav1" href="#">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link leftnav1" href="#"> Buy now!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 leftnav1"href="#">Login / Join</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse right" id="navbarNav">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+                <button type="button" class="btn btnnav1  changesize">A-</button>
+                <button type="button" class="btn btnnav1  changesize">A</button>
+                <button type="button" class="btn btnnav1 bg-primary text-white">A+</button>
+              </div>
+            <ul class="navbar-nav fs-5">
+              <li class="nav-item">
+                <a class="nav-link px-2  social"><i class="fa-brands fa-square-facebook"></i></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link social"href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link social"href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link social"href="#"><i class="fa-brands fa-square-youtube"></i></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link social"href="#"><i class="fab fa-vimeo"></i></a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+     <!--end first nav-->
+      <!--start second nav-->
+      <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container  py-4 navline">
+          <a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
+          <!--start of menu container-->
+          <div class="menu-container">
+            <div class="menu fs-5">
+                <ul>
+                  <li><a href="http://marioloncarek.com"><i class="fa-solid fa-circle circle"></i> Home <i class="fa-solid fa-chevron-down down"></i></a>
+                    <ul class="dropdown-menu bg-white" aria-labelledby="homeMenu">
+                      <li> <a class="dropdown-item text-primary" href=""><i class="fa-solid fa-circle circle"></i>Home default</a></li>
+                      <li> <a class="dropdown-item" href="index-lazy.html">Home lazy load</a></li>
+                      <li> <a class="dropdown-item" href="index-2.html">Magazine classic</a></li>
+                      <li> <a class="dropdown-item" href="index-3.html">Magazine</a></li>
+                      <li> <a class="dropdown-item" href="index-4.html">Home cards</a></li>
+                      <li> <a class="dropdown-item" href="index-5.html">Blog classic</a></li>
+                      <li> <a class="dropdown-item" href="index-6.html">Blog Personal </a></li>
+                      <li> <a class="dropdown-item" href="index-7.html">Blog Vintage</a></li>
+                      <li> <a class="dropdown-item" href="index-8.html">Blog Tech</a></li>
+                      <li> <a class="dropdown-item" href="index-9.html">Blog Fashion</a></li>
+                      <li> <a class="dropdown-item" href="index-10.html">Blog Podcast</a></li>
+                      <li> <a class="dropdown-item" href="index-11.html">Home Shop <span class="badge bg-danger smaller me-1">New</span></a></li>
+                    </ul>
+                </li>
+                    <li><a href="http://marioloncarek.com text-black"class="hmenu">Pages <i class="fa-solid fa-chevron-down down"></i></a>
+                      <ul class="fs-6 bg-white dropdown-menu text-black">
+                        <li> <a class="dropdown-item" href="index-lazy.html">About</a></li>
+                        <li> <a class="dropdown-item" href="index-2.html">Contact</a></li>
+                        <li> <a class="dropdown-item" href="index-3.html">shop <span class="badge bg-danger smaller me-1">New</span></a></li>
+                        <li> <a class="dropdown-item" href="index-4.html">Other Archives</a></li>
+                        <li> <a class="dropdown-item" href="index-5.html">Error 404</a></li>
+                        <li> <a class="dropdown-item" href="index-6.html">Signin</a></li>
+                        <li> <a class="dropdown-item" href="index-7.html">Signup</a></li>
+                        <li> <a class="dropdown-item" href="index-8.html">Offline</a></li>
+                        <li> <a class="dropdown-item" href="index-9.html">Dropdown Levels</a></li>
+                        <li> 
+                          <a class="dropdown-item" href="https://support.webestica.com/" target="_blank">
+                            <i class="text-warning fa-fw  me-2 fa-regular fa-futbol"></i>Support
+                          </a> 
+                        </li>
+                        <li><a class="dropdown-item" href="index-11.html"><i class="fa-solid fa-book text-danger"></i> Documentation</a></li>
+                        <li> 
+                          <a class="dropdown-item" href="https://blogzine.webestica.com/rtl" target="_blank">
+                            <i class="text-primary fa-solid fa-infinity me-2"></i>RTL demo
+                          </a> 
+                        </li>
+                        <li> 
+                          <a class="dropdown-item" href="https://blogzine.webestica.com/rtl" target="_blank">
+                            <i class="fa-solid fa-tree me-2" style="color: #0cbc87;"></i>Buy Blogzine!
+                          </a> 
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a href="http://marioloncarek.com"class="hmenu">Post <i class="fa-solid fa-chevron-down down"></i></a>
+                    <ul class="dropdown-menu bg-white" aria-labelledby="postMenu">
+                      <!-- dropdown submenu -->
+                      <li class="dropdown-submenu dropend"> 
+                        <a class="dropdown-item dropdown-toggle" href="#">Post grid</a>
+                      </li>
+                      <li> <a class="dropdown-item" href="post-list.html">Post list</a> </li>
+                      <li> <a class="dropdown-item" href="post-list-2.html">Post list 2</a> </li>
+                      <li> <a class="dropdown-item" href="post-cards.html">Post card</a> </li>
+                      <li> <a class="dropdown-item" href="post-overlay.html">Post Overlay</a> </li>
+                      <li> <a class="dropdown-item" href="post-types.html">Post types</a> </li>
+                      <li class="dropdown-divider"></li>
+                      <li> <a class="dropdown-item" href="post-single.html">Post single magazine</a> </li>
+                      <li> <a class="dropdown-item" href="post-single-2.html">Post single classic</a> </li>
+                      <li> <a class="dropdown-item" href="post-single-3.html">Post single minimal</a> </li>
+                      <li> <a class="dropdown-item" href="post-single-4.html">Post single card</a> </li>
+                      <li> <a class="dropdown-item" href="post-single-5.html">Post single review</a> </li>
+                      <li> <a class="dropdown-item" href="post-single-6.html">Post single video</a> </li>
+                      <li> <a class="dropdown-item" href="podcast-single.html">Podcast single</a> </li>
+                      <li class="dropdown-divider"></li>
+                      <li> <a class="dropdown-item" href="pagination-styles.html">Pagination styles</a> </li>
+                    </ul>
+                </li>
+                    <li class="displaybigmenue"><a href="http://marioloncarek.com"class="hmenu ">Lifestyle <i class="fa-solid fa-chevron-down down"></i></a>
+                    </li>
+                   <li><a href=""class="hmenu">Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+            <button type="button" class="btn btn-danger sub">Subscribe!</button>
+            <a onclick="fun()" class="nav-link fs-3 glass" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </nav>
+       <!--start canvas-->
+      <a class="nav-link fs-3 menuicon" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+         
+          <a class="nav-link close" href="#" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></a>
+        </div>
+        <div class="offcanvas-body px-4">
+          <img src="images/logo.svg">
+          <p class="py-3">The next-generation blog, news, and magazine theme for you to start sharing your stories today!</p>
+          <div class="fs-4">
+            <a class="nav-link active leftnav1" aria-current="page" href="#">Home</a>
+            <a class="nav-link active leftnav1" aria-current="page" href="#">About</a>
+            <a class="nav-link active leftnav1" aria-current="page" href="#">Our Journal</a>
+            <a class="nav-link active leftnav1" aria-current="page" href="#">Contact Us</a>
+          </div>
+          <div class="card text-center my-5 " style="width: 20.7rem; background-color: #e8effd;">
+            <div class="card-body cardbody "style="height:293px;">
+              <P>The Blogzine</P>
+              <h3 class="card-title ">Save on Premium Membership</h3>
+              <p class="card-text">Get the insights report trusted by experts around the globe. Become a Member Today!</p>
+              <a href="#" class="btn btn-warning">View pricing planes</a>
+            </div>
+          </div>
+          <p class="fw-bold">New York, USA (HQ)</p>
+            <p>750 Sing Sing Rd, Horseheads, NY, 14845
+              Call:<a class="text-black" href="">469-537-2410 (Toll-free)</a> 
+              </p>
+              <a class="nav-link" href="">hello@blogzine.com</a>
+        </div>
+      </div>
+       <!-- end canvas-->
+    <div class="displayy" id="dis">
+      <div class="input-group mb-3 search">
+        <input type="text" class="form-control text" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2 ">Search</button>
+      </div>
+    </div>
+
+    <!--start slider-->
+    <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators d-none">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+          <div class="carousel-inner pt-5">
+            <span class="span1 bg-primary  px-3 py-1">Treading:</span>
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="bg-cyan w-100"></div>
+              <div class="carousel-caption d-none d-md-block">
+               
+                <p class="m-0">The most common business debate isn't as black and white as you might think</p>
+              </div>
+            </div>
+           
+            <div class="carousel-item" data-bs-interval="2000">
+
+              <div class="carousel-caption d-none d-md-block">
+               
+                <p class="m-0">How the 10 worst business fails of all time could have been prevented</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+
+              <div class="carousel-caption d-none d-md-block">
+               
+                <p class="m-0">The most common business debate isn't as black and white as you might think </p>
+              </div>
+            </div>
+            <div class="icons row">
+              <button class="carousel-control-prev col-md-6 me-3 " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="carousel-control-next col-md-6" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--start of big menu-->
+<div class="menuparent">
+  <div class="container">
+    <div class="row g-4 p-3 flex-fill">
+      <!-- Card item START -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card bg-transparent">
+          <!-- Card img -->
+          <img class="card-img rounded" src="images/01.jpg" alt="Card image"style="height:auto;">
+          <div class="card-body px-0 pt-3 line">
+            <h6><a href="#" class="mb-0 fw-bold">7 common mistakes everyone makes while traveling</a></h6> 
+             <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+               <li class="nav-item">
+                 <a href="#" class="text-reset btn-link">Joan Wallace</a>
+               </li>
+               <li class="nav-item">Feb 18, 2022</li>
+             </ul>
+           </div>
+        </div>
+      </div>
+      <!-- Card item END -->
+      <!-- Card item START -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card bg-transparent">
+          <!-- Card img -->
+          <img class="card-img rounded" src="images/02.jpg" alt="Card image"style="height:auto;">
+          <div class="card-body px-0 pt-3 line">
+            <h6><a href="#" class="mb-0 fw-bold">12 worst types of business accounts you follow on Twitter</a></h6> 
+             <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+               <li class="nav-item">
+                 <a href="#" class="text-reset btn-link">Joan Wallace</a>
+               </li>
+               <li class="nav-item">Feb 18, 2022</li>
+             </ul>
+           </div>
+        </div>
+      </div>
+      <!-- Card item END -->
+      <!-- Card item START -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card bg-transparent">
+          <!-- Card img -->
+          <img class="card-img rounded" src="images/03.jpg" alt="Card image" style="height:auto;">
+            <!-- Card info --> 
+              <div class="card-body px-0 pt-3 line">
+               <h6><a href="#" class="mb-0 fw-bold">Skills that you can learn from business</a></h6> 
+                <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
+                  <li class="nav-item">
+                    <a href="#" class="text-reset btn-link">JUDY NGUYEN
+                    </a>
+                  </li>
+                  <li class="nav-item">Feb 18, 2022</li>
+                </ul>
+              </div>
+        </div>
+      </div>
+      <!-- Card item END -->
+      <!-- Card item START -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="bg-primary bg-opacity-10 p-4 text-center h-100 w-100 rounded">
+          <span>The Blogzine</span>
+          <h3>Premium Membership</h3>
+          <p>Become a Member Today!</p>
+          <a href="#" class="btn btn-warning">View pricing plans</a>
+        </div>
+      </div>
+      <!-- Card item END -->
+    </div> <!-- Row END -->
+    <!-- Trending tags -->
+    <div class="row px-3">
+      <div class="col-12">
+        <ul class="list-inline mt-3">
+          <li class="list-inline-item">Trending tags:</li>
+          <li class="list-inline-item"><a href="#" class="btn btn-outline-primary links">Travel</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-warning links">Business</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-light links">Tech</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-danger links">Gadgets</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary links">Lifestyle</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary links">Vaccine</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-light links">Sports</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-danger links">Covid-19</a></li>
+          <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary  links">Politics</a></li>
+        </ul>
+      </div>
+    </div> <!-- Row END -->
+  </div>
+</div>    
+      <!--start footer-->
+        <footer class="bg-dark pt-5 mt-5" id="footer">
+          <div class="container">
+            <div class="row pb-4">
+              <div class="col-md-3">
+               <img src="images/logo-footer.svg" alt="">
+              </div>
+              <div class="col-md-5">
+                <p class="text-muted ">The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</p>
+              </div>
+              <div class="col-md-4 ">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Enter you email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary ms-3 " type="button" id="button-addon2">Subscribe</button>
+                </div>
+                <div class="form-text">
+                 <span>By subscribing you agree to our <a href="" class="text-reset">Privacy Policy</a></span>  
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row pt-5">
+              <div class="col-md-6  col-lg-3">
+                <h5 class=" mb-4 text-white">Recent post</h5>
+                <div class="mb-4 hov">
+                  <div >
+                    <a href=""class="badge bg-danger mb-2 "><i class="fa-solid fa-circle me-2 "></i> Business</a>
+                  </div>
+                  <a href=""class="btn-link  text-white ">Up-coming business bloggers, you need to watch</a>
+               <ul class="nav text-muted small mt-2 pb ">
+                <li class="nav-item">
+                  <li class="nav-link  text-muted  p-0">
+                    <span>by</span> <a href="" class="text-reset btn-link dercation">Dennis</a>
+                  </li>
+                </li>
+                <li class="nav-item ps-3">Apr 06, 2022 </li>
+               </ul>
+                </div>
+                <div class="mb-5 hov">
+                
+                  <div>
+                    <div >
+                      <a href=""class="badge bg-info mb-2 "><i class="fa-solid fa-circle me-2 "></i> Marketing</a>
+                    </div>
+                    <a href=""class="btn-link  text-white ">How did we get here? The history of the business told through tweets</a>
+                 <ul class="nav text-muted mt-2 pb small">
+                  <li class="nav-item">
+                    <li class="nav-link  text-muted  p-0">
+                      <span>by</span> <a href="" class="text-reset btn-link dercation">Larry</a>
+                    </li>
+                  </li>
+                  <li class="nav-item ps-3 ">May 29, 2022 </li>
+                 </ul>
+                </div>
+              </div>
+              <div class="col-md-6  col-lg-3">
+              
+                </div>
+              </div>
+              <div class="col-md-6  col-lg-3 hov_b" >
+                <h5 class="text-white pb-3">Navigation</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="nav flex-column  ">
+                      <li><a href="" class="text-muted "> Features</a></li>
+                      <li><a href="" class="text-muted ">Style Guide</a></li>
+                      <li><a href="" class="text-muted "> Contact us</a></li>
+                      <li><a href="" class="text-muted "> Get Theme</a></li>
+                      <li><a href="" class="text-muted "> Support</a></li>
+                      <li><a href="" class="text-muted "> Privacy Policy</a></li>
+                      <li><a href="" class="text-muted "> Newsletter</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="nav flex-column  ">
+                      <li><a href="" class="text-muted "> News</a></li>
+                      <li ><a href="" class="text-muted ">Career <span><a href="#" class="badge bg-danger ms-4">2 Jop</a></span></a></li>
+                     
+                      <li><a href="" class="text-muted "> Technology</a></li>
+                      <li><a href="" class="text-muted "> Startups</a></li>
+                      <li><a href="" class="text-muted ">Gadgets</a></li>
+                      <li><a href="" class="text-muted "> Inspiration</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6  col-lg-3 hov_b">
+                <h5 class="text-white pb-3">Get Regular Updates</h5>
+                <ul class="nav flex-column  ">
+                  <li class="nav-item"><a href="" class="text-muted nav-link"> <i class="fa-brands fa-whatsapp me-2"></i> <span> Whatsapp</span></a></li>
+                  <li class="nav-item"><a href="" class="text-muted nav-link"><i class="fa-brands fa-youtube me-2"></i> <span> Youtube</span></a></li>
+                  <li class="nav-item"><a href="" class="text-muted nav-link"> <i class="fa-regular fa-bell"></i><span> Website Notifications</span></a></li>
+                  <li class="nav-item"><a href="" class="text-muted nav-link"> <i class="fa-regular fa-envelope"></i><span> Newsletters</span></a></li>
+                  <li class="nav-item"><a href="" class="text-muted  nav-link"><i class="fa-solid fa-headphones-simple"></i><span> Podcasts</span></a></li>
+                 
+                </ul>
+              </div>
+              <div class="col-md-6  col-lg-3 hov_b">
+                <h5 class="text-white pb-3">Our mobile App</h5>
+               <div class="text-muted mb-3">
+                Download our App and get the latest Breaking News Alerts and latest headlines and daily articles near you.
+               </div>
+               <div class="row ">
+                <div class="col"><a href=""><img  src="images/app-store.svg" alt=""></a></div>
+                <div class="col"><a href=""><img  src="images/google-play.svg" alt=""></a></div>
+               </div>
+              </div>
+            </div>
+            <div class="hov_b mb-5">
+              <h5 class="text-white mb-2">Hot topics</h5>
+              <div>
+                <ul class="list-inline lh-lg">
+                  <li class="list-inline-item"><a class="text-muted" href="">Covid-19</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Politics</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Entertainment</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Media</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Royalist</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">  Half Full</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Scouted</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Travel</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Beast Inside</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Crossword</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">  Newsletters</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">  Podcasts</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">  Auction 2022</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href=""> Protests</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">   Education</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">   Sports</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">   Tech And Auto</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">   Opinion</a></li>
+                  <li class="list-inline-item"><a class="text-muted" href="">  Share Market</a></li>
+                 
+  
+                </ul>
+              </div>
+            </div>
+           
+          </div>
+          <div class="end hov_b">
+            <div class="container ">
+              <div class="row justify-content-between">
+                <div class="col-md-6 text-muted py-5">
+                  <span>©2022</span><a class="text-muted" href=""> Webestica</a>
+                  <span>. All rights reserved</span>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="row">
+                  <div class="col justify-content-end">
+                    <div class=" dropup mt-5 ps-5 ms-5">
+                      <a  class=" dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                        English Edition
+                      </a>
+                      <ul class="dropdown-menu">
+                       <li class="dropdown-item"><a href="">English</a> </li>
+                       <li class="dropdown-item"><a href="">German</a> </li>
+                       <li class="dropdown-item"> <a href="">Frensh</a> </li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                  <div class="col mt-5">
+                    <ul class="nav nav-inline">
+                      <li class="nav-inline-item"><a href="" class="text-muted">Terms</a> </li>
+                      <li class="nav-inline-item ps-3"><a href="" class="text-muted">Privacy</a> </li>
+                      <li class="nav-inline-item  ps-3"><a href="" class="text-muted">Cookies</a> </li>
+                    </ul>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+         </footer>     
+         <!--end footer-->
+   <!--start script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+  </script>
+  <script src="js/megamenu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>
+
+            function fun(){
+               var x= document.getElementById('dis');
+               var dis=x.style.display;
+               if(dis=="block"){
+                x.style.display="none";
+               }else{
+                x.style.display="block"
+               }
+            }
+    </script>
+  </body>
+</html>
