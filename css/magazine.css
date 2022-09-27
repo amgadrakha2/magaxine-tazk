@@ -202,21 +202,11 @@ img{
 .line ul li:hover::after{
     width: 100%;
 }
-a:hover .menue{
-display: block;
-}
+
 .menuparent{
-    display: none;
-    z-index: 9999999999999999999;
+    
     background-color: white;
-    position: fixed;
-    bottom: 3px;
-    left: 0;
-    right: 0%;
+
 }
-.displaybigmenue:hover .menuparent{
-    display: block !important;
-}
-.pt-5 {
-    padding-top: 5rem !important;
-}
+
+
