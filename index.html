@@ -11,7 +11,6 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
      <link rel="stylesheet" href="css/ionicons.min.css">
      <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/alert.css">
      <link rel="stylesheet" href="css/magazine.css">
      <!-- font -->
    
@@ -78,7 +77,7 @@
       <!--start second nav-->
       <nav class="navbar navbar-expand-lg  bg-white">
         <div class="container  py-4 navline">
-          <a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
+          <a class="navbar-brand" href="#"><img src="images/logo.svg" style="height: 30px;"></a>
           <!--start of menu container-->
           <div class="menu-container">
             <div class="menu fs-5">
@@ -151,82 +150,57 @@
                       <li> <a class="dropdown-item" href="pagination-styles.html">Pagination styles</a> </li>
                     </ul>
                 </li>
-                <li><a href="http://marioloncarek.com"class="hmenu ">life style <i class="fa-solid fa-chevron-down down"></i></a>
-                  <ul class="dropdown-menu bg-white" >
+                <li><a href="http://marioloncarek.com"class="hmenu">life style <i class="fa-solid fa-chevron-down down"></i></a>
+                  <ul class="dropdown-menu dropdownlife bg-white life" aria-labelledby="postMenu">
                         <!--start of big menu-->
-                    <div class="menuparen bg-white">
+                    <div class="menuparen bg-white"style="width: 1048px;">
                       <div class="container">
-                        <div class="row g-4 p-3 flex-fill">
-                          <!-- Card item START -->
-                          <div class="col-sm-6 col-lg-3">
-                            <div class="card bg-transparent">
-                              <!-- Card img -->
-                              <img class="card-img rounded" src="images/01.jpg" alt="Card image"style="height:auto;">
-                              <div class="card-body px-0 pt-3 line">
-                                <h6><a href="#" class="mb-0 fw-bold">7 common mistakes everyone makes while traveling</a></h6> 
-                                 <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
-                                   <li class="nav-item">
-                                     <a href="#" class="text-reset btn-link">Joan Wallace</a>
-                                   </li>
-                                   <li class="nav-item">Feb 18, 2022</li>
-                                 </ul>
-                               </div>
+                        <div class="row rowlife px-10">
+                          <div class="card col-lg-3 px-0 cardslife notborder">
+                            <img src="images/01.jpg" style="height: auto ;" class="card-img-top" alt="...">
+                            <div class="px-0">
+                              <h6 class="fw-bold"><a href="">7 common mistakes everyone makes while traveling</a></h6>
+                              <a href="#" class="text-reset btn-link">Joan Wallace</a>
+                              <p >Feb 18, 2022</p>
                             </div>
                           </div>
-                          <!-- Card item END -->
-                          <!-- Card item START -->
-                          <div class="col-sm-6 col-lg-3">
-                            <div class="card bg-transparent">
-                              <!-- Card img -->
-                              <img class="card-img rounded" src="images/02.jpg" alt="Card image"style="height:auto;">
-                              <div class="card-body px-0 pt-3 line">
-                                <h6><a href="#" class="mb-0 fw-bold">12 worst types of business accounts you follow on Twitter</a></h6> 
-                                 <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
-                                   <li class="nav-item">
-                                     <a href="#" class="text-reset btn-link">Joan Wallace</a>
-                                   </li>
-                                   <li class="nav-item">Feb 18, 2022</li>
-                                 </ul>
-                               </div>
+                          <!--second card-->
+                          <div class="card col-lg-3 px-0 cardslife notborder ">
+                            <img src="images/02.jpg" style="height: auto ;" class="card-img-top" alt="...">
+                            <div class="px-0">
+                              <h6 class="fw-bold"><a href="">12 worst types of business accounts you follow on Twitter</a></h6>
+                              <a href="#" class="text-reset btn-link">LORI STEVENS
+                              </a>
+                              <p >JUN 03, 2022</p>
                             </div>
                           </div>
-                          <!-- Card item END -->
-                          <!-- Card item START -->
-                          <div class="col-sm-6 col-lg-3">
-                            <div class="card bg-transparent">
-                              <!-- Card img -->
-                              <img class="card-img rounded" src="images/03.jpg" alt="Card image" style="height:auto;">
-                                <!-- Card info --> 
-                                  <div class="card-body px-0 pt-3 line">
-                                   <h6><a href="#" class="mb-0 fw-bold">Skills that you can learn from business</a></h6> 
-                                    <ul class="nav nav-divider align-items-center text-uppercase small mt-2">
-                                      <li class="nav-item">
-                                        <a href="#" class="text-reset btn-link">JUDY NGUYEN
-                                        </a>
-                                      </li>
-                                      <li class="nav-item">Feb 18, 2022</li>
-                                    </ul>
-                                  </div>
+                          <!--third card-->
+                          <div class="card col-lg-3 px-0 cardslife notborder">
+                            <img src="images/03.jpg" style="height: auto ;" class="card-img-top" alt="...">
+                            <div class="px-0">
+                              <h6 class="fw-bold"><a href="">Skills that you can learn from business</a></h6>
+                              <a href="#" class="text-reset btn-link">Joan Wallace</a>
+                              <p >SEP 07, 2022</p>
                             </div>
                           </div>
-                          <!-- Card item END -->
-                          <!-- Card item START -->
-                          <div class="col-sm-6 col-lg-3">
-                            <div class="bg-primary bg-opacity-10 p-4 text-center h-100 w-100 rounded">
-                              <span>The Blogzine</span>
-                              <h3>Premium Membership</h3>
-                              <p>Become a Member Today!</p>
-                              <a href="#" class="btn btn-warning">View pricing plans</a>
+                          <!-- forth card-->
+                          <div class="card col-lg-3 text-center cardslife cardbut">
+                            <div class="card-body cardbody">
+                              <P>The Blogzine</P>
+                              <h3 class="card-title fw-bold">Save on Premium Membership</h3>
+                              <p class="card-text">Get the insights report trusted by experts around the globe. Become a Member Today!</p>
+                              <a href="#" class="btn btn-warning">View pricing planes</a>
                             </div>
                           </div>
-                          <!-- Card item END -->
-                        </div> <!-- Row END -->
+                        </div>
+                      </div>  
+                    </div>
                         <!-- Trending tags -->
-                        <div class="row px-3">
+                        <div class="row rowtrending px-3 ">
                           <div class="col-12">
-                            <ul class="list-inline mt-3">
+                            <ul class="list-inline mt-3 fw-bold">
                               <li class="list-inline-item">Trending tags:</li>
-                              <li class="list-inline-item"><a href="#" class="btn btn-outline-primary links">Travel</a></li>
+                              <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary links">Travel</a></li>
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-warning links">Business</a></li>
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-light links">Tech</a></li>
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-danger links">Gadgets</a></li>
@@ -234,12 +208,10 @@
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary links">Vaccine</a></li>
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-light links">Sports</a></li>
                               <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-danger links">Covid-19</a></li>
-                              <li class="list-inline-item"><a href="#" class="btn btn-sm btn-outline-primary  links">Politics</a></li>
+                              <li class="list-inline-item"><a href="#" class="btn btn-sm btn btn-sm btn-outline-primary links">Politics</a></li>
                             </ul>
                           </div>
-                        </div> <!-- Row END -->
-                      </div>
-                    </div>   
+                        </div> <!-- Row END --> 
                   </ul>
               </li>      
                    <li><a href=""class="hmenu">Dashboard</a></li>

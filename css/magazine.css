@@ -63,34 +63,30 @@
 }
 .sub{
     position: absolute;
-    left: 75%;
+    left: 74%;
     width: 120px;
+    font-size: 20px;
     font-weight: bold !important;
     letter-spacing: 1px;
 }
 .glass{
     position: absolute;
-    left: 86%;
+    left: 85%;
 }
 .menuicon{
     float: right;
     position: relative;
     bottom: 78px;
-    right: 105px;
+    right: 118px;
 }
 .close{
     position: absolute;
     left: 91%;
 }
-
-img{
-    height: 30px;
-}
 .menu-container {
-    width: 80% !important;
+    width: 71% !important;
     background: none !important;
-    position: absolute;
-    left: 25%;
+    
 }
 .menu > ul > li > ul.normal-sub {
     width: 236px;
@@ -125,49 +121,50 @@ img{
 }
 .links{
     border: solid 0px !important;
+    font-size: 17px;
+    font-weight: bold;
 }
-.btn-outline-primary {
+ul .rowtrending ul li .btn-outline-primary {
     color: #2163e8 !important;
     background-color: rgba(33, 99, 232, 0.1) !important;
 }
-.btn-outline-primary:hover {
+ul .rowtrending ul li .btn-outline-primary:hover {
     color: white !important;
     background-color: #2163e8 !important;
 }
-.btn-outline-warning {
+ul .rowtrending ul li .btn-outline-warning {
     color: #f7c32e !important;
     background-color: rgba(247, 195, 46, 0.1) !important;
 }
-.btn-outline-warning:hover {
+ul .rowtrending ul li .btn-outline-warning:hover {
     color: black !important;
     background-color: #ffc107 !important;
 }
-.btn-outline-light{
+ul .rowtrending ul li .btn-outline-light{
     color: #0cbc87 !important;
     background-color: rgba(12, 188, 135, 0.1) !important;
 }
-.btn-outline-light:hover{
+ul .rowtrending ul li .btn-outline-light:hover{
     color: white !important;
     background-color: #198754 !important;
 }
-.btn-outline-danger{
+ul .rowtrending ul li .btn-outline-danger{
     color: #d6293e !important;
     background-color: rgba(214, 41, 62, 0.1) !important;
 }
-.btn-outline-danger:hover{
+ul .rowtrending ul li .btn-outline-danger:hover{
     color: white !important;
     background-color: #dc3545 !important;
 }
-.line{
-}
-.line h6{
+
+.cardslife h6{
     position: relative;
 }
-.line h6 a{
+.cardslife h6 a{
     text-decoration: none;
     color: black;
 }
-.line h6::after{
+.cardslife h6::after{
     content: '';
     height: 3px;
     width: 0;
@@ -177,19 +174,14 @@ img{
     bottom: -5px;
     transition: 0.5s;
 }
-.line h6:hover::after{
+.cardslife h6:hover::after{
     width: 100%;
 }
-.line ul li{
-    display: inline-block;
+.cardslife a{
     position: relative;
+    color: black;
 }
-.line ul li a{
-   text-decoration: none;
-   color: black;
-   text-transform: uppercase;
-}
-.line ul li::after{
+.cardslife a::after{
     content: '';
     height: 3px;
     width: 0;
@@ -199,14 +191,80 @@ img{
     bottom: -5px;
     transition: 0.5s;
 }
-.line ul li:hover::after{
+.cardslife a:hover::after{
     width: 100%;
 }
 
-.menuparent{
-    
-    background-color: white;
-
+.list-inline {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
-
-
+.list-inline-item:not(:last-child) {
+    margin: 0px;
+}
+.menuparent{    
+background-color: white;
+}
+.menu > ul > li  .dropdownlife {
+    width: 1155px;
+    background: #f0f0f0;
+    padding: 20px 13px;
+    position: absolute;
+    z-index: 99;
+    left: -259px;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.rowlife{
+  display: flex;
+  flex-wrap: unset !important;
+  flex: 1 1 auto;
+  margin: 0 -5px;
+}
+.rowlife .cardslife{
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.menu > ul > li > ul a{
+    padding: 0 !important;
+    display: inline-block;
+}
+.menu ul > li > ul .menuparen a:hover{
+    color: black !important;
+}
+.menu ul > li > ul .menuparen .cardbut a{
+    background-color:#ffc107;
+    font-weight: bolder;
+    padding: 7px !important;
+    border-radius:0px !important ;
+}
+.list-inline {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul .rowtrending ul li {
+    padding: 10px !important;
+    font-weight:bold ;
+}
+ul .rowtrending ul li a{
+    padding: 0 10px !important;
+    font-weight:bold ;
+}
+.notborder{
+    border: solid 0px !important;
+}
+.cardslife div p{
+  display: inline-block;
+}
+h6{
+    font-size: 0.9375rem;
+    word-spacing: 5px;
+}
