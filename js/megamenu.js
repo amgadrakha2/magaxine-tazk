@@ -59,3 +59,19 @@ $(document).ready(function () {
     //when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
 
 });
+"use strict";
+$('.menu > ul > li > ul > li :has( > ul)').addClass('menu-dropdown-icon');
+//Checks if li has sub (ul) and adds class for toggle icon - just an UI      
+$(".menu > ul > li > ul > li").hover(
+    function (e) {
+        if ($(window).width() > 943) {
+            $(this).children("ul").fadeIn(150);
+            e.preventDefault();
+        }
+    }, function (e) {
+        if ($(window).width() > 943) {
+            $(this).children("ul").fadeOut(150);
+            e.preventDefault();
+        }
+    }
+);

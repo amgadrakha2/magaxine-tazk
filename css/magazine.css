@@ -22,7 +22,13 @@
 .leftnav1:hover{
  color: #2163e8 !important;
 }
+nav{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+}
 .nav2{
+   
+    font-weight: 500;
     border-top: solid 1px gray;
     position: relative;
 }
@@ -64,20 +70,20 @@
 .sub{
     position: absolute;
     left: 74%;
-    width: 120px;
+    width: 140px;
     font-size: 20px;
     font-weight: bold !important;
     letter-spacing: 1px;
 }
 .glass{
     position: absolute;
-    left: 85%;
+    left: 87%;
 }
 .menuicon{
     float: right;
     position: relative;
     bottom: 78px;
-    right: 118px;
+    right: 84px;
 }
 .close{
     position: absolute;
@@ -107,6 +113,16 @@
 .menu ul li a .circle{
     font-size: 8px;
 }
+
+element.style {
+}
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+.menu > ul > li > ul > li {
+    margin: 6px 0px;
+}
+
 .down{
     font-size: 10px;
 }
@@ -267,4 +283,51 @@ ul .rowtrending ul li a{
 h6{
     font-size: 0.9375rem;
     word-spacing: 5px;
+}
+#toggle{
+    display: none;
+}
+.button{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.button::after{
+    content: url('./images/sun.svg');
+    width: 40px;
+    height: 40px;
+    background-color: hwb(0 87% 10%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25 );
+    position: absolute;
+    top: -5px;
+    left: 0;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color 1s,
+    transform 1s ease-in  ;
+}
+#toggle:checked + .button::after{
+    content: url('images/moon.svg');
+    background-color: #1f257f;
+    transform: translateX(50px) rotate(360deg);
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    right: 80px;
+}
+.toggle{
+position: relative;
+right: 17%;
+top: 5px;
+}
+.groupsocial {
+    position: relative;
+    right: 11%;
 }
